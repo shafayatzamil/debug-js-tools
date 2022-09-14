@@ -190,3 +190,21 @@ button {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 769px) {
+  #histories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    
+  }
+  /* STYLES HERE */
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
+  #histories{
+    width: 100%;
+  }
+}
